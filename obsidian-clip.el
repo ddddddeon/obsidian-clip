@@ -1,11 +1,10 @@
 ;;; obsidian-clip.el --- Clip code snippets to Obsidian notes  -*- lexical-binding: t; -*-
 
-;; Author: Chris d'Eon <>
+;; Author: Chris d'Eon 
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: obsidian, productivity, notes
 ;; URL: https://github.com/ddddddeon/obsidian-clip
-;;;###autoload
 
 ;;; Commentary:
 ;; Clip code snippets from Emacs into Obsidian markdown files

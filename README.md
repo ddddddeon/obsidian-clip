@@ -4,7 +4,7 @@ Clip code snippets from Emacs into Obsidian
 
 ## Installation
 
-Clone the repo and add the path to your init script, and optionally set your vault directory and add a keybinding:
+Clone the repo, add the path to your init script, and optionally set your vault directory and add a keybinding:
 ```elisp
 (add-to-list 'load-path "~/path/to/obsidian-clip")
 (require 'obsidian-clip)
