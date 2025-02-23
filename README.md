@@ -6,7 +6,7 @@ Clip code snippets from Emacs into Obsidian
 
 ```elisp
 (load "/path/to/obsidian-clip.el")
-(setq obsidian-cli-directory "~/path/to/vault")
+(setq obsidian-clip-directory "~/path/to/vault")
 (global-set-key (kbd "C-c C-k") 'obsidian-clip)
 ```
 
