@@ -1,6 +1,6 @@
 ;;; obsidian-clip.el --- Clip code snippets to Obsidian notes  -*- lexical-binding: t; -*-
 
-;; Author: Chris d'Eon <>
+;; Author: Chris d'Eon 
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: obsidian, productivity, notes
@@ -29,6 +29,7 @@
   "Most recently used file for clipping")
 
 ;;;###autoload
+
 (defun obsidian-clip ()
   "Clip selected region to an Obsidian markdown file.
 Defaults first to default-file, then to most recent file to which a clip was sent." 
