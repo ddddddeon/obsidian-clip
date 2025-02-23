@@ -1,6 +1,6 @@
-;;; obsidian-clip.el --- Quickly clip code snippets to Obsidian notes  -*- lexical-binding: t; -*-
+;;; obsidian-clip.el --- Clip code snippets to Obsidian notes  -*- lexical-binding: t; -*-
 
-;; Author: ddddddeon
+;; Author: Chris d'Eon <>
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: obsidian, productivity, notes
@@ -9,9 +9,6 @@
 
 ;;; Commentary:
 ;; Clip code snippets from Emacs into Obsidian markdown files
-
-
-;;; Code:
 
 (defgroup obsidian-clip nil
   "Quickly clip code snippets to Obsidian notes"
