@@ -37,7 +37,7 @@ Defaults first to default-file, then to most recent file to which a clip was sen
   (if (use-region-p)
       (let* ((content (buffer-substring (region-beginning) (region-end)))
              (ext (file-name-extension (buffer-file-name)))
-             (md-file-name (read-from-minibuffer "filename: " obsidian-clip-most-recent-file))
+             (md-file-name (read-from-minibuffer "Title: " obsidian-clip-most-recent-file))
              (md-file (expand-file-name (concat md-file-name ".md") obsidian-clip-directory)))
         (with-temp-buffer
           (insert "\n```" ext "\n" content "```\n\n")
