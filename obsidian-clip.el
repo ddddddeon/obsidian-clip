@@ -45,7 +45,7 @@ Defaults first to default-file, then to most recent file to which a clip was sen
                             md-file-name))
              (md-file (expand-file-name (concat md-file-name ".md") obsidian-clip-directory)))
         (with-temp-buffer
-          (insert "\n```" ext "\n" content "```\n\n")
+          (insert "\n```" ext "\n" content "\n```\n\n")
           (write-region (point-min) (point-max) md-file t))
         (setq obsidian-clip-most-recent-file md-file-name)
         (find-file md-file))
